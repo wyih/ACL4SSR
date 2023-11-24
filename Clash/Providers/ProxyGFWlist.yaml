@@ -166,7 +166,6 @@ payload:
   - DOMAIN-SUFFIX,6parkbbs.com
   - DOMAIN-SUFFIX,6parker.com
   - DOMAIN-SUFFIX,6parknews.com
-  - DOMAIN-SUFFIX,7-zip.org
   - DOMAIN-SUFFIX,7capture.com
   - DOMAIN-SUFFIX,7cow.com
   - DOMAIN-SUFFIX,8-d.com
@@ -345,6 +344,7 @@ payload:
   - DOMAIN-SUFFIX,aniscartujo.com
   - DOMAIN-SUFFIX,annatam.com
   - DOMAIN-SUFFIX,anobii.com
+  - DOMAIN-SUFFIX,anonfiles.com
   - DOMAIN-SUFFIX,anontext.com
   - DOMAIN-SUFFIX,anonymitynetwork.com
   - DOMAIN-SUFFIX,anonymizer.com
@@ -992,7 +992,7 @@ payload:
   - DOMAIN-SUFFIX,civiliangunner.com
   - DOMAIN-SUFFIX,civilmedia.tw
   - DOMAIN-SUFFIX,civisec.org
-  - DOMAIN-SUFFIX,cjb.net
+  - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-SUFFIX,ck101.com
   - DOMAIN-SUFFIX,clarionproject.org
   - DOMAIN-SUFFIX,classicalguitarblog.net
@@ -1010,6 +1010,7 @@ payload:
   - DOMAIN-SUFFIX,cloudcone.com
   - DOMAIN-SUFFIX,cloudflare-ipfs.com
   - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,cloudfunctions.net
   - DOMAIN-SUFFIX,club1069.com
   - DOMAIN-SUFFIX,clubhouseapi.com
   - DOMAIN-SUFFIX,clyp.it
@@ -1296,6 +1297,7 @@ payload:
   - DOMAIN-SUFFIX,dnsrd.com
   - DOMAIN-SUFFIX,dnssec.net
   - DOMAIN-SUFFIX,dnvod.tv
+  - DOMAIN-SUFFIX,docker.com
   - DOMAIN-SUFFIX,doctorvoice.org
   - DOMAIN-SUFFIX,documentingreality.com
   - DOMAIN-SUFFIX,dogfartnetwork.com
@@ -2002,6 +2004,7 @@ payload:
   - DOMAIN-SUFFIX,goagent.biz
   - DOMAIN-SUFFIX,goagentplus.com
   - DOMAIN-SUFFIX,gobet.cc
+  - DOMAIN-SUFFIX,godaddy.com
   - DOMAIN-SUFFIX,godfootsteps.org
   - DOMAIN-SUFFIX,godns.work
   - DOMAIN-SUFFIX,godoc.org
@@ -2308,6 +2311,7 @@ payload:
   - DOMAIN-SUFFIX,greenreadings.com
   - DOMAIN-SUFFIX,greenvpn.net
   - DOMAIN-SUFFIX,greenvpn.org
+  - DOMAIN-SUFFIX,grindr.com
   - DOMAIN-SUFFIX,grotty-monday.com
   - DOMAIN-SUFFIX,grow.google
   - DOMAIN-SUFFIX,gs-discuss.com
@@ -2688,6 +2692,7 @@ payload:
   - DOMAIN-SUFFIX,imb.org
   - DOMAIN-SUFFIX,imdb.com
   - DOMAIN-SUFFIX,img.ly
+  - DOMAIN-SUFFIX,imgasd.com
   - DOMAIN-SUFFIX,imgchili.net
   - DOMAIN-SUFFIX,imgmega.com
   - DOMAIN-SUFFIX,imgur.com
@@ -2784,6 +2789,7 @@ payload:
   - DOMAIN-SUFFIX,italiatibet.org
   - DOMAIN-SUFFIX,itasoftware.com
   - DOMAIN-SUFFIX,itemdb.com
+  - DOMAIN-SUFFIX,itemfix.com
   - DOMAIN-SUFFIX,ithome.com.tw
   - DOMAIN-SUFFIX,itsaol.com
   - DOMAIN-SUFFIX,itshidden.com
@@ -3039,6 +3045,7 @@ payload:
   - DOMAIN-SUFFIX,le-vpn.com
   - DOMAIN-SUFFIX,leafyvpn.net
   - DOMAIN-SUFFIX,lecloud.net
+  - DOMAIN-SUFFIX,ledger.com
   - DOMAIN-SUFFIX,leeao.com.cn
   - DOMAIN-SUFFIX,lefora.com
   - DOMAIN-SUFFIX,left21.hk
@@ -3066,6 +3073,7 @@ payload:
   - DOMAIN-SUFFIX,lfpcontent.com
   - DOMAIN-SUFFIX,lhakar.org
   - DOMAIN-SUFFIX,lhasocialwork.org
+  - DOMAIN-SUFFIX,li.taipei
   - DOMAIN-SUFFIX,liangyou.net
   - DOMAIN-SUFFIX,liangzhichuanmei.com
   - DOMAIN-SUFFIX,lianyue.net
@@ -3171,6 +3179,7 @@ payload:
   - DOMAIN-SUFFIX,lzjscript.com
   - DOMAIN-SUFFIX,lzmtnews.org
   - DOMAIN-SUFFIX,m-sport.co.uk
+  - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,m.me
   - DOMAIN-SUFFIX,macgamestore.com
   - DOMAIN-SUFFIX,macrovpn.com
@@ -3376,6 +3385,7 @@ payload:
   - DOMAIN-SUFFIX,mondex.org
   - DOMAIN-SUFFIX,money-link.com.tw
   - DOMAIN-SUFFIX,moneyhome.biz
+  - DOMAIN-SUFFIX,monica.im
   - DOMAIN-SUFFIX,monitorchina.org
   - DOMAIN-SUFFIX,monitorware.com
   - DOMAIN-SUFFIX,monlamit.org
@@ -3748,6 +3758,7 @@ payload:
   - DOMAIN-SUFFIX,okx.com
   - DOMAIN-SUFFIX,olabloga.pl
   - DOMAIN-SUFFIX,old-cat.net
+  - DOMAIN-SUFFIX,olehdtv.com
   - DOMAIN-SUFFIX,olevod.com
   - DOMAIN-SUFFIX,olumpo.com
   - DOMAIN-SUFFIX,olympicwatch.org
@@ -3844,9 +3855,9 @@ payload:
   - DOMAIN-SUFFIX,packetix.net
   - DOMAIN-SUFFIX,pacopacomama.com
   - DOMAIN-SUFFIX,padmanet.com
+  - DOMAIN-SUFFIX,page.link
   - DOMAIN-SUFFIX,page.tl
   - DOMAIN-SUFFIX,page2rss.com
-  - DOMAIN-SUFFIX,pages.dev
   - DOMAIN-SUFFIX,pagodabox.com
   - DOMAIN-SUFFIX,palacemoon.com
   - DOMAIN-SUFFIX,paldengyal.com
@@ -3989,6 +4000,7 @@ payload:
   - DOMAIN-SUFFIX,podbean.com
   - DOMAIN-SUFFIX,podcast.co
   - DOMAIN-SUFFIX,podictionary.com
+  - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,pokerstars.com
   - DOMAIN-SUFFIX,pokerstars.net
   - DOMAIN-SUFFIX,pokerstrategy.com
@@ -5081,7 +5093,6 @@ payload:
   - DOMAIN-SUFFIX,tracfone.com
   - DOMAIN-SUFFIX,tradingview.com
   - DOMAIN-SUFFIX,translate.goog
-  - DOMAIN-SUFFIX,translate.google
   - DOMAIN-SUFFIX,transparency.org
   - DOMAIN-SUFFIX,treemall.com.tw
   - DOMAIN-SUFFIX,trendsmap.com
@@ -5740,6 +5751,7 @@ payload:
   - DOMAIN-SUFFIX,xiaohexie.com
   - DOMAIN-SUFFIX,xiaolan.me
   - DOMAIN-SUFFIX,xiaoma.org
+  - DOMAIN-SUFFIX,xiaomi.eu
   - DOMAIN-SUFFIX,xiaxiaoqiang.net
   - DOMAIN-SUFFIX,xiezhua.com
   - DOMAIN-SUFFIX,xihua.es
@@ -6141,6 +6153,10 @@ payload:
   - IP-CIDR,147.92.128.0/17,no-resolve
   - IP-CIDR,203.104.128.0/19,no-resolve
 
+  # Oracle Cloud
+  - DOMAIN,cloud.oracle.com
+  - DOMAIN-SUFFIX,oraclecloud.com
+
   # OneDrive
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
@@ -6206,7 +6222,6 @@ payload:
   - DOMAIN-SUFFIX,steamstatic.com
   - DOMAIN-SUFFIX,steamstat.us
   - DOMAIN,steambroadcast.akamaized.net
-  - DOMAIN,steamcdn-a.akamaihd.net
   - DOMAIN,steamcommunity-a.akamaihd.net
   - DOMAIN,steamstore-a.akamaihd.net
   - DOMAIN,steamusercontent-a.akamaihd.net
