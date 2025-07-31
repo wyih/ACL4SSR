@@ -6,27 +6,19 @@ log-level: info
 unified-delay: true
 tcp-concurrent: true
 external-controller: :9090
-
 dns:
   enabled: true
   listen: ':53'
   ipv6: true
-  enhanced-mode: fake-ip                    # 添加 fake-ip 模式
+  enhanced-mode: fake-ip                   
   fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:                          # 过滤本地域名
-    - '+.lan'
-    - '+.local'
-    - 'localhost.ptlogin2.qq.com'
   nameserver:
-    - 119.29.29.29                         # 国内 IPv4
+    - 119.29.29.29
     - 223.5.5.5
-    - 2402:4e00::                          # 国内 IPv6（腾讯）
-    - 2400:3200::1                         # 国内 IPv6（阿里）
   fallback:
-    - https://8.8.8.8/dns-query            # 使用 DoH 避免污染
+    - https://8.8.8.8/dns-query
     - https://1.1.1.1/dns-query
-    - https://[2001:4860:4860::8888]/dns-query
-  fallback-filter:                         # 添加智能分流
+  fallback-filter:                        
     geoip: true
     geoip-code: CN
     ipcidr:
@@ -36,9 +28,7 @@ dns:
       - '+.googleapis.com'
       - '+.github.com'
       - '+.youtube.com'
-
 bind-address: "*"
-ipv6: true
 cfw-bypass:
   - qq.com
   - music.163.com
@@ -46,8 +36,22 @@ cfw-bypass:
   - localhost
   - 127.*
   - 10.*
-  - 172.16.*/12                            
+  - 172.16.*
+  - 172.17.*
+  - 172.18.*
+  - 172.19.*
+  - 172.20.*
+  - 172.21.*
+  - 172.22.*
+  - 172.23.*
+  - 172.24.*
+  - 172.25.*
+  - 172.26.*
+  - 172.27.*
+  - 172.28.*
+  - 172.29.*
+  - 172.30.*
+  - 172.31.*
   - 192.168.*
   - <local>
-
-cfw-latency-timeout: 3000                 
+cfw-latency-timeout: 5000这是我现在的 要怎么样能优化一下
