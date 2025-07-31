@@ -10,25 +10,14 @@ dns:
   enabled: true
   listen: ':53'
   ipv6: true
-  enhanced-mode: fake-ip                   
-  fake-ip-range: 198.18.0.1/16
   nameserver:
     - 119.29.29.29
     - 223.5.5.5
   fallback:
-    - https://8.8.8.8/dns-query
+    - https://8.8.8.8/dns-query          
     - https://1.1.1.1/dns-query
-  fallback-filter:                        
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-      - 240.0.0.0/4
-    domain:
-      - '+.google.com'
-      - '+.googleapis.com'
-      - '+.github.com'
-      - '+.youtube.com'
 bind-address: "*"
+ipv6: true
 cfw-bypass:
   - qq.com
   - music.163.com
@@ -54,4 +43,4 @@ cfw-bypass:
   - 172.31.*
   - 192.168.*
   - <local>
-cfw-latency-timeout: 5000这是我现在的 要怎么样能优化一下
+cfw-latency-timeout: 5000
