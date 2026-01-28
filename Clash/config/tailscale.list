@@ -1,3 +1,2 @@
 IP-CIDR,100.64.0.0/10,no-resolve
 DOMAIN-SUFFIX,tailscale.com
-DOMAIN-SUFFIX,tsuilf.com
