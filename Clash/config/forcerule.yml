@@ -7,27 +7,19 @@ unified-delay: true
 tcp-concurrent: true
 external-controller: :9090
 dns:
-  enable: true
-  ipv6: false
-  prefer-h3: false
-  respect-rules: false
-  cache-algorithm: arc
+  enabled: true
+  listen: ':53'
+  ipv6: true
   nameserver:
-    - "https://dns.cloudflare.com/dns-query"
-  default-nameserver:
-    - "tls://119.29.29.29"
-    - "tls://223.5.5.5"
-  proxy-server-nameserver:
-    - "tls://119.29.29.29"
-    - "tls://223.5.5.5"
-  direct-nameserver:
-    - "system"
-    - "tls://119.29.29.29"
-    - "tls://223.5.5.5"
-  direct-nameserver-follow-policy: true
-  nameserver-policy:
-    "rule-set:blacklist":
-      - "https://dns.cloudflare.com/dns-query"
+    - 119.29.29.29
+    - 223.5.5.5
+    - udp://[2001:4860:4860::8888]:53
+    - udp://[2001:4860:4860::8844]:53
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
 bind-address: "*"
 ipv6: true
 cfw-bypass:
