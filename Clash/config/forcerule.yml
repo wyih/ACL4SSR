@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 external-controller: :9090
 dns:
-  enabled: true
+  enable: true
   listen: ':53'
   ipv6: true
   default-nameserver:
