@@ -7,9 +7,22 @@ unified-delay: true
 tcp-concurrent: true
 external-controller: :9090
 dns:
-  enabled: true
+  enable: true
   listen: ':53'
   ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "+.lan"
+    - "+.local"
+    - "time.*.com"
+    - "ntp.*.com"
+    - "+.market.xiaomi.com"
+    - auth.openai.com
+    - chatgpt.com
+    - "*.chatgpt.com"
+    - openai.com
+    - "*.openai.com"
   nameserver:
     - "https://doh.pub/dns-query"
     - "https://dns.alidns.com/dns-query"
