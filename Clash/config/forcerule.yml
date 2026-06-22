@@ -7,32 +7,29 @@ unified-delay: true
 tcp-concurrent: true
 external-controller: :9090
 dns:
-  enable: true
+  enabled: true
   listen: ':53'
   ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fake-ip-filter-mode: blacklist
   fake-ip-filter:
-    - "+.lan"
-    - "+.local"
+    - "*.lan"
+    - "*.local"
+    - "*.arpa"
+    - "localhost"
+    - "localhost.*"
     - "time.*.com"
     - "ntp.*.com"
     - "+.market.xiaomi.com"
-    - auth.openai.com
-    - chatgpt.com
-    - "*.chatgpt.com"
-    - openai.com
-    - "*.openai.com"
+    - "localhost.ptlogin2.qq.com"
+    - "*.msftncsi.com"
+    - "www.msftconnecttest.com"
+    - "auth.openai.com"
   nameserver:
     - "https://doh.pub/dns-query"
     - "https://dns.alidns.com/dns-query"
-    - "tls://[2001:4860:4860::8888]:853"
-    - "tls://[2001:4860:4860::8844]:853"
-  fallback:
-    - "https://1.1.1.1/dns-query"
-    - "https://8.8.8.8/dns-query"
-    - "tls://1.0.0.1:853"
-    - "tls://dns.google:853"
 bind-address: "*"
 ipv6: true
 cfw-bypass:
