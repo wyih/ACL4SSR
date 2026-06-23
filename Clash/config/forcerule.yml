@@ -11,6 +11,10 @@ dns:
   enable: true
   listen: ':53'
   ipv6: true
+  nameserver-policy:
+    'rule-set:CN_域':
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
   nameserver:
     - https://cloudflare-dns.com/dns-query
     - https://dns.google/dns-query
@@ -23,6 +27,13 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
   respect-rules: true
+rule-providers:
+  CN_域:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.list
+    path: ./ruleset/cn_domain.list
+    interval: 86400
 bind-address: "*"
 ipv6: true
 cfw-bypass:
