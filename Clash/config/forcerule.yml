@@ -13,6 +13,10 @@ dns:
   nameserver:
     - https://cloudflare-dns.com/dns-query
     - https://dns.google/dns-query
+  direct-nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  direct-nameserver-follow-policy: false
   default-nameserver:
     - tls://223.5.5.5
   proxy-server-nameserver:
